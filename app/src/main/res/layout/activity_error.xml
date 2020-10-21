@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ErrorActivity"
+    android:background="@color/activity_bg"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="1.3sp"
+        android:textColor="@color/takemehome"
+        android:textSize="@dimen/woops"
+        android:text="@string/woops"
+        android:fontFamily="@font/montserrat_regular"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/tv2"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="1.3sp"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/woops"
+        android:text="@string/we_made_guacamole"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/iv_error"
+        />
+
+
+
+    <ImageView
+        android:id="@+id/iv_error"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_error"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:scaleType="centerInside"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:textColor="@drawable/rounded_border_text"
+        android:textSize="@dimen/take_me_home"
+        android:text="Take Me Home"
+        android:background="@drawable/rounded_border_primary"
+
+        android:paddingHorizontal="25dp"
+        android:paddingVertical="9dp"
+        app:layout_constraintTop_toBottomOf="@+id/iv_error"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:clickable="true"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

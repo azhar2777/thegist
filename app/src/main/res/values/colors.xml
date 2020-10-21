@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#3E9A90</color>
+    <color name="colorAppMainColor">#13c07e</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="activity_bg">#f8f8f8</color>
+    <color name="activity_footer_bg">#dadada</color>
+    <color name="activity_selection_bg">#99CFCECC</color>
+
+    <color name="progress_image_theme">#99D6D6D6</color>
+    <color name="progress_image">#99F6F2F2</color>
+
+    <!-- Splash screen -->
+    <color name="splash_bg">#C2EF94</color>
+
+
+    <color name="selected_text_sizebtn">#13c07e</color>
+    <color name="control_page_tv_tap_to_add_your_name_t_size">#AFAFAF</color>
+    <color name="control_page_footer_color">#dadada</color>
+    <color name="category_dotted_line">#d7d7d7</color>
+    <!-- Category Selection -->
+    <color name="category_selecction_rounded_border">#13c07e</color>
+    <!-- Error Screen -->
+    <color name="takemehome">#13c07e</color>
+
+    <color name="slide_next">#99000000</color>
+
+    <!-- transparent white -->
+    <color name="cl_white_transparent">#CCFFFFFF</color>
+    <color name="child_cat_bg_border">#99DFDFDE</color>
+    <color name="child_cat_header">#F8F8F8</color>
+
+    <!-- Story Screen -->
+    <color name="video_view_bg">#000000</color>
+    <color name="page_title_below_coloe">#717171</color>
+    <color name="story_green_rectangle">#13c07e</color>
+    <color name="story_content_color">#696969</color>
+    <color name="menu_gist_by_label">#6f6f6f</color>
+    <color name="story_image_bg">#99CFCECC</color>
+    <color name="story_image_drawabale">#99CFCECC</color>
+
+    <color name="content_provider_bg">#FFFFFF</color>
+    <!-- Control Screen -->
+    <color name="ctrl_activity_bg">#F8F8F8</color>
+    <color name="control_et_border">#F4F3F3</color>
+    <color name="control_button_text_normal">#13c07e</color>
+    <color name="ctrl_btn_update">#FEFDFE</color>
+    <!-- Get Started-->
+    <color name="get_started_bg">#13c07e</color>
+    <color name="get_started_dot_active">#FFFFFF</color>
+    <color name="get_started_dot_inactive">#64DAAA</color>
+    <color name="get_started_heading">#213261</color>
+    <color name="get_started_text">#6F6F6F</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+    <!-- Register -->
+    <color name="register_mob_border">#999999</color>
+    <color name="register_mob_container">#F2F2F2</color>
+    <color name="register_label_personalize">#59C47E</color>
+    <color name="register_label_heading">#213261</color>
+    <color name="register_label_tap">#B0B0B0</color>
+    <color name="register_footer">#57C17F</color>
+    <color name="reg_btn_continue">#FEFDFE</color>
+    <color name="reg_step1">#4FB181</color>
+    <!-- React Story -->
+    <color name="reaction_bg_not_selected">@android:color/transparent</color>
+    <color name="reaction_bg">#999DF698</color>
+
+    <!-- CIRCLURAL IMAGEVIEW -->
+    <color name="circle_bg">#FFFFFF</color>
+    <color name="circle_border">#CFCECC</color>
+
+    <color name="trans_bg_share">#E6000000</color>
+
+    <color name="colorControlNormal">#BABABA</color>
+    <color name="colorControlActivated">#13c07e</color>
+    <color name="not_now_bg">#FF1F1F</color>
+
+
+
+</resources>

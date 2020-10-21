@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">Gist App</string>
+    <string name="acc_drawer_open">Drawer Open</string>
+    <string name="acc_drawer_close">Drawer Closed</string>
+
+    <string name="gist_control_prefs">GIST_CONTROL_PREFS</string>
+
+    <!-- Control Screen -->
+    <string name="lipsum">TRUMP ADMINISTRATION HIRES TECH START-UP TO BUILD VIRTUAL BORDER WALL</string>
+    <string name="lipsum_content">Lorem Ipsum is simply dummy text of printing and typesetting.n\nLorem Ipsum is simply dummy text of printing and typesetting. Lorem Ipsum is simply dummy text of printing and typesetting. Lorem Ipsum is simply dummy text of printing and typesetting.Lorem Ipsum is simply dummy text of printing and typesetting.\n\nLorem Ipsum is simply dummy text of printing and typesetting. Lorem Ipsum is simply dummy text of printing and typesetting. Lorem Ipsum is simply dummy text of printing and typesetting.Lorem Ipsum is simply dummy text of printing and typesetting.\n\nLorem Ipsum is simply dummy text of printing and typesetting. Lorem Ipsum is simply dummy text of printing and typesetting. Lorem Ipsum is simply dummy text of printing and typesetting.Lorem Ipsum is simply dummy text of printing and typesetting.\n\nLorem Ipsum is simply dummy text of printing and typesetting. Lorem Ipsum is simply dummy text of printing and typesetting. Lorem Ipsum is simply dummy text of printing and typesetting.Lorem Ipsum is simply dummy text of printing and typesetting.\n\nLorem Ipsum is simply dummy text of printing and typesetting. Lorem Ipsum is simply dummy text of printing and typesetting. Lorem Ipsum is simply dummy text of printing and typesetting.Lorem Ipsum is simply dummy text of printing and typesetting.\n\nLorem Ipsum is simply dummy text of printing and typesetting. Lorem Ipsum is simply dummy text of printing and typesetting. Lorem Ipsum is simply dummy text of printing and typesetting.Lorem Ipsum is simply dummy text of printing and typesetting.\n\nLorem Ipsum is simply dummy text of printing and typesetting. Lorem Ipsum is simply dummy text of printing and typesetting. Lorem Ipsum is simply dummy text of printing and typesetting. \nEnd of line</string>
+    <string name="lipsum_content2">Cosmetics giant Coty Inc. is doubling down on its investment in the Kardashian-Jenner clan. Shares of the Big Apple company jumped by more than 14 percent in early trading on Monday after announced plans to sink $200 million into a 20-percent stake in Kim Kardashian’s four-year-old KKW makeup brand. The deal calls for Coty to develop new products with Kardashian.	</string>
+    <string name="ctrl_title">Control</string>
+    <string name="ctrl_scr_your_name">Your Name</string>
+    <string name="ctrl_scr_tap_to_add">Tap To Add</string>
+    <string name="ctrl_scr_emoji">Emoji</string>
+    <string name="ctrl_scr_txt_size">Text Size</string>
+    <string name="ctrl_scr_txt_size_small">Small</string>
+    <string name="ctrl_scr_txt_size_medium">Medium</string>
+    <string name="ctrl_scr_txt_size_large">Large</string>
+    <string name="ctrl_scr_label_set_notification">Notifications</string>
+    <string name="ctrl_scr_notfication_on">On</string>
+    <string name="ctrl_scr_notfication_off">Off</string>
+    <string name="ctrl_scr_label_set_hd_images">HD Images</string>
+    <string name="ctrl_scr_label_set_hd_images_on">On</string>
+    <string name="ctrl_scr_label_set_hd_images_off">Off</string>
+    <string name="ctrl_scr_label_contact">Contact</string>
+    <string name="ctrl_scr_label_share">Share</string>
+    <string name="ctrl_scr_label_rate">Rate</string>
+    <string name="ctrl_scr_label_mode">Night Mode</string>
+    <string name="ctrl_scr_night_mode_no">No</string>
+    <string name="ctrl_scr_night_mode_yes">Yes</string>
+    <string name="ctrl_privacy">Privacy Policy</string>
+    <string name="ctrl_terms">Terms &amp; conditions</string>
+    <string name="btn_update_profile">Update</string>
+    <string name="profile_upadted">Profile updated successfully</string>
+    <string name="profile_not_upadted">Profile was not updated</string>
+
+    <!-- Selection Screen -->
+    <string name="selection_title">Selection</string>
+    <string name="selection_all_categories">All Categories</string>
+    <string name="selection_top_stories">TOP STORIES</string>
+    <string name="select_any_two_cat">Please select two catgeories</string>
+    <string name="can_not_select_more_than_two_cat">You can not select more than two categories</string>
+    <string name="no_category_found">No Categories found</string>
+    <!-- Error Scree -->
+    <string name="woops">Woops !</string>
+    <string name="we_made_guacamole">We made guacamole</string>
+    <string name="title_activity_news">NewsActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+
+    <!-- News Screen -->
+    <string name="news_page_title">Story</string>
+    <string name="news_page_title_below">Looks like a bright and sunny day today</string>
+    <string name="title_activity_nav">NavActivity</string>
+
+    <string name="poll_question">Are you a human?</string>
+    <string name="poll_answer1">Yes</string>
+    <string name="poll_answer2">No</string>
+
+
+    <string name="poll_answered_successfully">Answer submitted successfully</string>
+    <string name="poll_answered_failed">Your answer was not submitted.\nPlease try again</string>
+
+    <!-- COMMON MESSAGES -->
+    <string name="something_went_wrong">Something went wrong.</string>
+    <string name="please_try_again">Please try again.</string>
+    <string name="no_story_found">Sorry, No story found.</string>
+
+    <!-- Get Started -->
+
+    <!-- Register -->
+    <string name="reg_personalize">Personalize</string>
+    <string name="reg_step1">Step 1</string>
+    <string name="reg_step1_text">We just need a few basics to give you the best Gist</string>
+    <string name="btn_continue">Continue</string>
+
+    <string name="reg_name_error">Please enter name</string>
+    <string name="reg_email_error">Please enter a vaid email</string>
+    <string name="reg_city_error">Please enter a city name</string>
+
+    <string name="register_invalid_post">Invalid request</string>
+    <string name="register_invalid_name">Please enter your name</string>
+    <string name="register_invalid_email">Please enter a valid email</string>
+    <string name="register_failed">Unable to register right now.\nPlease try again.</string>
+
+    <string name="open_drawer">Open</string>
+    <string name="close_drawer">Close</string>
+
+    <!-- React Story -->
+    <string name="react_success">Reaction sent</string>
+
+    <string name="story_bookmarked">Story bookmarked successfully.</string>
+    <string name="story_not_bookmarked">Story not bookmarked</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="slide_one_heading">Left, Right or Neutral</string>
+    <string name="slide_one_text">Each Gist has link to three news sources. The left button takes you to a left view point and so on.</string>
+
+
+    <string name="slide_two_heading">News In 30 Seconds</string>
+    <string name="slide_two_text">We know your time is important, we give you Gist of the news on easy cards, without the flab</string>
+
+    <string name="slide_three_heading">Be In The Know</string>
+    <string name="slide_three_text">Our #NoBoring algorithm ensures understanding news is easy and interesting</string>
+
+    <string name="slide_four_heading">Choose What You Like</string>
+    <string name="slide_four_text">We have categorized news around you, so go ahead experience a completely new way to stay on top</string>
+
+    <string name="slide_five_heading">Share The Gist !</string>
+    <string name="slide_five_text">Show the world you care. Share, react, love what you like and make your heard.</string>
+
+    <string name="slide_six_heading">GIST IS NOT\nAN APP !</string>
+    <string name="slide_six_heading2">It\'s a Phenomenon</string>
+    <string name="slide_six_text">Don\'t be disconnected, discover a completely new way stay connected with the news and all the important stuff around you.</string>
+
+    <string name="btn_get_started">Get Started</string>
+
+    <string name="start">GOT IT</string>
+    <string name="next">NEXT</string>
+
+    <!-- RATE GIST -->
+    <string name="rate_gist">Rate GIST</string>
+    <string name="btn_not_now">Not Now</string>
+
+</resources>

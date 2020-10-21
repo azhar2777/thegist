@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Splash Screen -->
+    <dimen name="splash_logo_width">250dp</dimen>
+    <dimen name="slplash_logo_below">35dp</dimen>
+    <!-- Control Screen -->
+    <dimen name="control_heading_size">20sp</dimen>
+    <dimen name="control_page_home_logo_m_end">24dp</dimen>
+    <dimen name="control_page_name_layout_m_top">20dp</dimen>
+    <dimen name="control_page_name_layout_m_start">8dp</dimen>
+    <dimen name="control_page_name_layout_m_end">8dp</dimen>
+    <dimen name="control_page_name_layout_m_bottm">8dp</dimen>
+    <dimen name="control_page_label_your_name_text_size">15sp</dimen>
+    <dimen name="control_page_et_your_name_text_size">12sp</dimen>
+    <dimen name="control_page_label_your_name_m_start">8dp</dimen>
+    <dimen name="control_page_label_your_name_m_end">8dp</dimen>
+    <dimen name="control_page_tv_tap_to_add_your_name_t_size">15sp</dimen>
+    <dimen name="control_btn_size">20sp</dimen>
+
+    <dimen name="control_evacado_logo_width">30dp</dimen>
+    <dimen name="control_gist_logo_width">150dp</dimen>
+
+    <dimen name="control_page_tv_share_t_size">15sp</dimen>
+    <!-- Selection Screen -->
+    <dimen name="main_catgeory_tsize">18sp</dimen>
+    <dimen name="icon_cateory_offset">16dp</dimen>
+    <!-- Category Selection Screen -->
+    <dimen name="selected_catgeory_tsize">18sp</dimen>
+
+    <!-- Error Screen -->
+    <dimen name="rounder_border">5dp</dimen>
+    <dimen name="woops">20sp</dimen>
+    <dimen name="take_me_home">16sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- News Screen -->
+    <dimen name="news_menu_magin_start">12dp</dimen>
+    <dimen name="news_menu_magin_top">7dp</dimen>
+    <dimen name="news_menu_magin_top_lebel">15dp</dimen>
+    <!-- Register Screen -->
+    <dimen name="register_personalize_header">24sp</dimen>
+    <dimen name="reg_btn_size">20sp</dimen>
+    <dimen name="reg_step1_size">12sp</dimen>
+
+
+    <!-- story screen-->
+    <dimen name="story_page_title_size">14sp</dimen>
+    <dimen name="story_page_title_size2">12sp</dimen>
+    <dimen name="story_title_fsize">16sp</dimen>
+    <dimen name="story_title_line_h">22sp</dimen>
+    <dimen name="story_content_fsize">14sp</dimen>
+    <dimen name="story_content_line_h">15sp</dimen>
+    <dimen name="story_share_card_h">40dp</dimen>
+    <dimen name="story_share_img_h">25dp</dimen>
+    <dimen name="story_share_card_margin_t">20dp</dimen>
+    <dimen name="story_image_container_height">150dp</dimen>
+    <dimen name="content_provider_image_size_w">70dp</dimen>
+    <dimen name="ic_react_image_size_w">30dp</dimen>
+    <dimen name="ic_react_image_margin_end">9dp</dimen>
+    <dimen name="ic_react_image_padding">3dp</dimen>
+
+    <!-- Next Screen-->
+    <dimen name="nextup_story_fsize">13sp</dimen>
+    <dimen name="next_story_title_fsize">12sp</dimen>
+    <dimen name="next_story_image_w">40dp</dimen>
+    <dimen name="next_story_container_padding_v">15dp</dimen>
+    <dimen name="next_story_container_padding_h">8dp</dimen>
+
+    <!-- Bottomsheet -->
+
+    <dimen name="default_margin">16dp</dimen>
+    <dimen name="drawable_padding">24dp</dimen>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="normal_padding">16dp</dimen>
+
+    <!-- Slide Page -->
+    <dimen name="sliding_dotw">15dp</dimen>
+    <dimen name="sliding_doth">15dp</dimen>
+
+    <!-- Get Started -->
+    <dimen name="cl_mob_margin_top">35dp</dimen>
+    <dimen name="get_started_image_h">250dp</dimen>
+    <dimen name="get_started_mob_container_h">600dp</dimen>
+</resources>

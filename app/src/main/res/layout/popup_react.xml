@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/transparent"
+    android:layout_gravity="center_horizontal"
+    >
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:paddingVertical="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+           >
+
+            <ImageView
+                android:id="@+id/iv_react_love"
+                android:layout_width="@dimen/ic_react_image_size_w"
+                android:layout_height="@dimen/ic_react_image_size_w"
+                android:background="@drawable/btn_reaction_background_drawable"
+                android:padding="@dimen/ic_react_image_padding"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_react_love"
+                app:layout_constraintEnd_toStartOf="@+id/iv_react_surprised"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+
+                />
+
+            <ImageView
+                android:id="@+id/iv_react_surprised"
+                android:layout_width="@dimen/ic_react_image_size_w"
+                android:layout_height="@dimen/ic_react_image_size_w"
+                android:background="@drawable/btn_reaction_background_drawable"
+                android:padding="@dimen/ic_react_image_padding"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_react_surprised"
+                app:layout_constraintEnd_toStartOf="@+id/iv_react_sad"
+                app:layout_constraintStart_toEndOf="@+id/iv_react_love"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/iv_react_sad"
+                android:layout_width="@dimen/ic_react_image_size_w"
+                android:layout_height="@dimen/ic_react_image_size_w"
+                android:background="@drawable/btn_reaction_background_drawable"
+                android:padding="@dimen/ic_react_image_padding"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_react_sad"
+                app:layout_constraintEnd_toStartOf="@+id/iv_react_angry"
+                app:layout_constraintStart_toEndOf="@id/iv_react_surprised"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/iv_react_angry"
+                android:layout_width="@dimen/ic_react_image_size_w"
+                android:layout_height="@dimen/ic_react_image_size_w"
+                android:background="@drawable/btn_reaction_background_drawable"
+                android:padding="@dimen/ic_react_image_padding"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_react_angry"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/iv_react_sad"
+                app:layout_constraintTop_toTopOf="parent"
+
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

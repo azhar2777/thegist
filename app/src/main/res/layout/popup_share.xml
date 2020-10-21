@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/trans_bg_share"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_chooser"
+        android:text="Share"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="6dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite"
+
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:id="@+id/iv_divider_chooser"
+        android:background="@drawable/dotted_white_line_selector"
+
+        app:layout_constraintTop_toBottomOf="@+id/tv_chooser"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="20dp"
+
+        />
+
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:id="@+id/lv_share"
+        tools:listitem="@layout/item_share"
+        app:layout_constraintTop_toBottomOf="@+id/iv_divider_chooser"
+        app:layout_constraintStart_toStartOf="parent"
+        android:divider="@drawable/share_divider_drawable"
+
+
+
+
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

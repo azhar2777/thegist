@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ll_main_category"
+    android:clickable="true"
+    android:background="@drawable/category_selection_rounded_border"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_child_category"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="#POLITICS"
+        android:fontFamily="@font/montserrat_regular"
+        android:gravity="center_horizontal"
+        android:paddingVertical="15dp"
+
+        android:textColor="@color/category_selection_text_color"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

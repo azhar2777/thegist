@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1082563247697",
+    "firebase_url": "https://the-gist-app-a1605.firebaseio.com",
+    "project_id": "the-gist-app-a1605",
+    "storage_bucket": "the-gist-app-a1605.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082563247697:android:e7407ecdbf11e61470c270",
+        "android_client_info": {
+          "package_name": "com.thegistapp.thegistapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082563247697-jee634qoj10ck9uvvnf8iuud987d05bf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPNqOGOA7-ZuZsl0ymVut2w29JvfeZgZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082563247697-jee634qoj10ck9uvvnf8iuud987d05bf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

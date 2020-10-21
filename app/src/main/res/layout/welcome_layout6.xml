@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cl_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        android:paddingVertical="10dp"
+        android:layout_marginHorizontal="20dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_gis_notapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/slide_six_heading"
+            android:textColor="@color/get_started_heading"
+            android:textSize="30sp"
+            android:fontFamily="@font/montserrat_regular"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:gravity="center_horizontal"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_news_30seconds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/slide_six_heading2"
+            android:textColor="@color/get_started_heading"
+            android:textSize="22sp"
+            android:fontFamily="@font/montserrat_regular"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_gis_notapp"
+            android:layout_marginTop="10dp"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_slide_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:text="@string/slide_six_text"
+            android:textSize="14sp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/get_started_text"
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_marginTop="10dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_news_30seconds"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_get_started"
+            android:text="@string/btn_get_started"
+            android:background="@drawable/btn_slide_getstarted_drawable"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="40dp"
+            android:paddingVertical="20dp"
+            android:gravity="center_horizontal"
+            app:layout_constraintTop_toBottomOf="@id/tv_slide_text"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+
+            />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

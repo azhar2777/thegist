@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~
+  ~ custom_progress_dialog_small.xml of CleanerApp for Properhands.
+  ~
+  ~ Copyright (C) ProperHands Pte. Ltd - All Rights Reserved
+  ~ Unauthorized copying of this file, via any medium is strictly prohibited
+  ~ Proprietary and confidential
+  ~ Developed by vGrow Tech (http://vgrow.tech)
+  ~ vijendra created/modified on 4/7/16 11:47 PM
+  ~
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ProgressBar
+        android:id="@+id/pbCustomDialog"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/progress_dialog_selector"
+        />
+
+</RelativeLayout>
